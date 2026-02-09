@@ -1,0 +1,1445 @@
+Subject: [PATCH] Revert "Initial commit"
+---
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: .idea/dictionaries/project.xml
+===================================================================
+diff --git a/.idea/dictionaries/project.xml b/.idea/dictionaries/project.xml
+deleted file mode 100644
+--- a/.idea/dictionaries/project.xml	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,7 +0,0 @@
+-<component name="ProjectDictionaryState">
+-  <dictionary name="project">
+-    <words>
+-      <w>maiúsculas</w>
+-    </words>
+-  </dictionary>
+-</component>
+\ No newline at end of file
+Index: .idea/inspectionProfiles/Project_Default.xml
+===================================================================
+diff --git a/.idea/inspectionProfiles/Project_Default.xml b/.idea/inspectionProfiles/Project_Default.xml
+deleted file mode 100644
+--- a/.idea/inspectionProfiles/Project_Default.xml	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,12 +0,0 @@
+-<component name="InspectionProjectProfileManager">
+-  <profile version="1.0">
+-    <option name="myName" value="Project Default" />
+-    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+-      <option name="ignoredIdentifiers">
+-        <list>
+-          <option value="tuple.*" />
+-        </list>
+-      </option>
+-    </inspection_tool>
+-  </profile>
+-</component>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/misc.xml	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,7 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Black">
+-    <option name="sdkName" value="Python 3.13 (PyCharmMiscProject)" />
+-  </component>
+-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.13 (PyCharmMiscProject)" project-jdk-type="Python SDK" />
+-</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/PyCharmMiscProject.iml" filepath="$PROJECT_DIR$/PyCharmMiscProject.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: PyCharmMiscProject.iml
+===================================================================
+diff --git a/PyCharmMiscProject.iml b/PyCharmMiscProject.iml
+deleted file mode 100644
+--- a/PyCharmMiscProject.iml	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="PYTHON_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$">
+-      <excludeFolder url="file://$MODULE_DIR$/.venv" />
+-    </content>
+-    <orderEntry type="jdk" jdkName="Python 3.13 (PyCharmMiscProject)" jdkType="Python SDK" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: ex001.py
+===================================================================
+diff --git a/ex001.py b/ex001.py
+deleted file mode 100644
+--- a/ex001.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,3 +0,0 @@
+-# escrever um programa que diga "Olá, mundo"
+-n = 'Olá, mundo'
+-print(n)
+\ No newline at end of file
+Index: ex002.py
+===================================================================
+diff --git a/ex002.py b/ex002.py
+deleted file mode 100644
+--- a/ex002.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,3 +0,0 @@
+-# programa que te recpeciona
+-nome = str(input('Qual é o seu nome? '))
+-print(f'É um prazer te conhecer, {nome}!')
+\ No newline at end of file
+Index: ex003.py
+===================================================================
+diff --git a/ex003.py b/ex003.py
+deleted file mode 100644
+--- a/ex003.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,5 +0,0 @@
+-# programa que lê dois números e mostra a soma entre eles
+-n1 = int(input('Diga um valor: '))
+-n2 = int(input('Diga outro valor: '))
+-s = n1 + n2
+-print(f'A soma entre {n1} e {n2} vale {s}!')
+\ No newline at end of file
+Index: ex004.py
+===================================================================
+diff --git a/ex004.py b/ex004.py
+deleted file mode 100644
+--- a/ex004.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,15 +0,0 @@
+-# fazer um programa algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiveis
+-# sobre ele
+-algo = input('Digite algo: ')
+-print(f'Qual o seu tipo primitivo? {type(algo)}')
+-print(f'É alfabético númerico? {algo.isalnum()}')
+-print(f'É numérico? {algo.isnumeric()}')
+-print(f'As letras são todas minúsculas? {algo.islower()}')
+-print(f'As letras são todas maiúsculas? {algo.isupper()}')
+-print(f'É um título? {algo.istitle()}')
+-print(f'É um número decimal? {algo.isdecimal()}')
+-print(f'É alfabético? {algo.isalpha()}')
+-print(f'É um dígito?{algo.isdigit()}')
+-print(f'É um espaço vazio? {algo.isspace()}')
+-print(f'É identificador? {algo.isidentifier()}')
+-print(f'É algum tipo de ilustração? {algo.isprintable()}')
+\ No newline at end of file
+Index: ex005.py
+===================================================================
+diff --git a/ex005.py b/ex005.py
+deleted file mode 100644
+--- a/ex005.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,3 +0,0 @@
+-# programa que lê o número na tela e diz o seu antecessor e o seu sucessor
+-n = int(input('Digite um valor: '))
+-print(f'O seu antecessor é {n-1} e seu sucessor é {n+1}!')
+\ No newline at end of file
+Index: ex006.py
+===================================================================
+diff --git a/ex006.py b/ex006.py
+deleted file mode 100644
+--- a/ex006.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,3 +0,0 @@
+-# programa que lê um número na tela e mostra o seu dobro, triplo e calcula a raiz quadrada
+-n = int(input('Digite um valor: '))
+-print(f'O seu dobro é {n*2}, o seu triplo é {n*3} e sua raiz é {n**(1/2):.2f}!')
+\ No newline at end of file
+Index: ex007.py
+===================================================================
+diff --git a/ex007.py b/ex007.py
+deleted file mode 100644
+--- a/ex007.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,5 +0,0 @@
+-# programa que lê as duas notas do aluno, calcula e diz a sua média
+-n1 = float(input('Diga sua primeira nota: '))
+-n2 = float(input('Diga sua segunda nota: '))
+-média = (n1+n2) / 2
+-print(f'A sua média é {média:.1f}!')
+\ No newline at end of file
+Index: ex008.py
+===================================================================
+diff --git a/ex008.py b/ex008.py
+deleted file mode 100644
+--- a/ex008.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,17 +0,0 @@
+-# criar um programa que lê algo em metros e converte em centímetros e milímetros
+-# km hm dam m dm cm mm
+-# a cada casa avançada, multiplica por 10
+-# a cada casa voltada, divide por 10
+-m = float(input('Quantos metros são? '))
+-km = m / 1000
+-hm = m / 100
+-dam = m / 10
+-dm = m * 10
+-c = m * 100
+-mili = m * 1000
+-print(f'{km}km.')
+-print(f'{hm}hm.')
+-print(f'{dam}dam.')
+-print(f'{dm}dm.')
+-print(f'{c}cm.')
+-print(f'{mili}mm.')
+\ No newline at end of file
+Index: ex009.py
+===================================================================
+diff --git a/ex009.py b/ex009.py
+deleted file mode 100644
+--- a/ex009.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,16 +0,0 @@
+-#prgrama que lê um número qualquer e diz a sua tabuada
+-n = int(input('Digite um número qualquer: '))
+-print('A tabuada deste número é: ')
+-print('_' * 12)
+-print(f'{n} * 0 = {n*0}')
+-print(f'{n} * 1 = {n*1}')
+-print(f'{n} * 2 = {n*2}')
+-print(f'{n} * 3 = {n*3}')
+-print(f'{n} * 4 = {n*4}')
+-print(f'{n} * 5 = {n*5}')
+-print(f'{n} * 6 = {n*6}')
+-print(f'{n} * 7 = {n*7}')
+-print(f'{n} * 8 = {n*8}')
+-print(f'{n} * 9 = {n*9}')
+-print(f'{n} * 10 = {n*10}')
+-print('_' * 12)
+\ No newline at end of file
+Index: ex010(02).py
+===================================================================
+diff --git a/ex010(02).py b/ex010(02).py
+deleted file mode 100644
+--- a/ex010(02).py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,9 +0,0 @@
+-# programa que lê quanto a pessoa tem na carteira e quantos dólares ela pode comprar
+-# compra via cartão internacional
+-dinheiro = float(input('Quanto você deseja investir? '))
+-cotação = float(input('Quanto está a cotação atualmente do dólar(cartão)? '))
+-IOF = float(input('Quanto está a taxa IOF atualmente?'))
+-#calcular a cotação com o IOF
+-c = cotação * IOF
+-r = dinheiro / c
+-print(f'Certo! Você poderá comprar U${r:.2f} via cartão internacional!')
+\ No newline at end of file
+Index: ex010.py
+===================================================================
+diff --git a/ex010.py b/ex010.py
+deleted file mode 100644
+--- a/ex010.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,9 +0,0 @@
+-# programa que lê quanto a pessoa tem na carteira e diz quantos dólares ela pode comprar (em espécie)
+-# considerando a cotação do dólar turismo e a taxa IOF
+-dinheiro = float(input('Quanto você deseja investir? '))
+-cotação = float(input('Quanto estação a cotação do dólar turismo atualmente(para compra em espécie)? '))
+-IOF = float(input('Quanto está a taxa IOF? '))
+-#calculo da cotação com o IOF
+-c = (cotação * IOF)
+-d = dinheiro / c
+-print(f'Certo! Você poderá comprar U${d:.2f} em espécie!')
+Index: ex011.py
+===================================================================
+diff --git a/ex011.py b/ex011.py
+deleted file mode 100644
+--- a/ex011.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,8 +0,0 @@
+-# programa que lê a largura e a altura de uma parede em metros, calcula a sua área
+-# e diz quantos litros de tintas são necessário para pintá-la
+-# sabendo que cada litro de tinta pinta uma área de 2m²
+-largura = float(input('Qual a largura da parede? '))
+-altura = float(input('Qual a altura de uma parede? '))
+-r = (largura * altura)
+-l = r / 2
+-print(f'Certo! A parede tem {altura}m² de altura e {largura}m² de largura. \nPortanto, será necessário {l}l de tinta pintá-la!')
+\ No newline at end of file
+Index: ex012.py
+===================================================================
+diff --git a/ex012.py b/ex012.py
+deleted file mode 100644
+--- a/ex012.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,6 +0,0 @@
+-# programa que lê o preço de um produto e diz qual será o seu novo preço
+-# com 5% de desconto
+-produto = float(input('Qual é o preço do produto? '))
+-c = (produto * 5) / 100
+-d = produto - c
+-print(f'Com o desconto, seu novo preço é R${d:.2f}!')
+\ No newline at end of file
+Index: ex013.py
+===================================================================
+diff --git a/ex013.py b/ex013.py
+deleted file mode 100644
+--- a/ex013.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,5 +0,0 @@
+-# programa que lê o salário do funcionário e mostre o seu novo salário com aumento de 15%
+-salário = float(input('Qual é o salário do funcionário? '))
+-d = (salário * 15) / 100
+-a = salário + d
+-print(f'Certo! Seu novo salário é R${a:.2f}')
+Index: ex014.py
+===================================================================
+diff --git a/ex014.py b/ex014.py
+deleted file mode 100644
+--- a/ex014.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,4 +0,0 @@
+-# programa que converte °C para °F
+-c = float(input('Qual é a temperatura? '))
+-f = (( c * 9) / 5) + 32
+-print(f'A conversão {c}°C corresponde a {f}°F!')
+\ No newline at end of file
+Index: ex015.py
+===================================================================
+diff --git a/ex015.py b/ex015.py
+deleted file mode 100644
+--- a/ex015.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,9 +0,0 @@
+-# programa que calcula alugem de carro
+-km = float(input('Rodou por quantos km? '))
+-dias = int(input('Foi alugado por quantos dias? '))
+-# pagar (dias)
+-d = dias * 60
+-# pagar (km)
+-k = km * 0.15
+-total = d + k
+-print(f'O total a pagar é R${total:.2f}!')
+Index: ex016.py
+===================================================================
+diff --git a/ex016.py b/ex016.py
+deleted file mode 100644
+--- a/ex016.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,5 +0,0 @@
+-# programa que lê um número real e diz a sua parte inteira
+-from math import trunc
+-num = float(input('Digite um número: '))
+-inteira = trunc(num)
+-print(f'A parte inteira desse número é {inteira}!')
+\ No newline at end of file
+Index: ex017.py
+===================================================================
+diff --git a/ex017.py b/ex017.py
+deleted file mode 100644
+--- a/ex017.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,7 +0,0 @@
+-# programa que lê o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo
+-# calcula e mostra o comprimento da hipotenusa
+-from math import hypot
+-co = float(input('Qual é o comprimento do cateto oposto? '))
+-ca = float(input('Qual é o comprimento do cateto adjacente? '))
+-h = hypot(co, ca)
+-print(f'O comprimento da hipotenusa é {h:.2f}!')
+\ No newline at end of file
+Index: ex018.py
+===================================================================
+diff --git a/ex018.py b/ex018.py
+deleted file mode 100644
+--- a/ex018.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,14 +0,0 @@
+-# programa que lê um ângulo qualquer e mostra na tela o seu seno, cosseno e tangente desse ângulo
+-import math
+-a = float(input('Qual é o ângulo? '))
+-# passando os graus para números radianos
+-r = math.radians(a)
+-# calculando os números radianos em seno, cosseno e tangente
+-seno = math.sin(r)
+-cosseno = math.cos(r)
+-tangente = math.tan(r)
+-print('-' * 40)
+-print(f'O seno de {a} graus é {seno:.2f}!')
+-print(f'O cosseno de {a} graus é {cosseno:.2f}!')
+-print(f'A tangente de {a} graus é {tangente:.2f}!')
+-print('-' * 40)
+\ No newline at end of file
+Index: ex019.py
+===================================================================
+diff --git a/ex019.py b/ex019.py
+deleted file mode 100644
+--- a/ex019.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,9 +0,0 @@
+-# programa que lê o nome de 4 alunos e sorteia um escolhido
+-from random import choices
+-n1 = str(input('Nome do(a) primeiro(a) aluno(a): '))
+-n2 = str(input('Nome do(a) segundo(a) aluno(a): '))
+-n3 = str(input('Nome do(a) terceiro(a) aluno(a): '))
+-n4 = str(input('Nome do(a) quarto(a) aluno(a): '))
+-lista = [n1, n2, n3, n4]
+-s = choices(lista)
+-print(f'O(a) aluno(a) escolhido(a) foi: {s}')
+\ No newline at end of file
+Index: ex020.py
+===================================================================
+diff --git a/ex020.py b/ex020.py
+deleted file mode 100644
+--- a/ex020.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,9 +0,0 @@
+-# programa que lê o nome de 4 alunos e sorteia a ordem de apresentação dos alunos
+-from random import shuffle
+-n1 = str(input('Digite o nome do(a) primeiro(a) aluno(a): '))
+-n2 = str(input('Digite o nome do(a) segundo(a) aluno(a): '))
+-n3 = str(input('Digite o nome do(a) terceiro(a) aluno(a): '))
+-n4 = str(input('Digite o nome do(a) quarto(a) aluno(a): '))
+-lista = [n1, n2, n3, n4]
+-shuffle(lista)
+-print(lista)
+Index: ex021.py
+===================================================================
+diff --git a/ex021.py b/ex021.py
+deleted file mode 100644
+--- a/ex021.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,7 +0,0 @@
+-# programa que roda música mp3
+-import pygame
+-pygame.init()
+-pygame.mixer.music.load('ex021.mp3')
+-pygame.mixer.music.play()
+-input()
+-pygame.event.wait()
+\ No newline at end of file
+Index: ex022.py
+===================================================================
+diff --git a/ex022.py b/ex022.py
+deleted file mode 100644
+--- a/ex022.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,13 +0,0 @@
+-# criar um programa que lê o nome completo de uma pessoa e diz:
+-# o nome com todas as letras maiúsculas
+-# o nome com todas as letras minúsculas
+-# quantas letras ao todo (sem considerar os espaços)
+-# quantas letras tem o primeiro nome
+-
+-nome = str(input('Digite seu nome completo, por gentileza: '))
+-nome = nome.strip()
+-print(f'Seu nome com todas as letras maiúsculas: {nome.upper()}')
+-print(f'Seu nome com todas as letras minúsculas: {nome.lower()}')
+-print(f'A quantidade de letras (sem contar os espaços): {len(nome) - nome.count(' ')}')
+-no = nome.split()
+-print(f'A quantidade de letras do seu primeiro nome: {len(no[0])}')
+\ No newline at end of file
+Index: ex023.py
+===================================================================
+diff --git a/ex023.py b/ex023.py
+deleted file mode 100644
+--- a/ex023.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,18 +0,0 @@
+-# fazer um programa que leia qualquer número de 0 a 9999 e mostre na tela cada um dos digitos separados
+-# numero = 1254
+-# unidade = 4
+-# dezena = 5
+-# centena = 2
+-# milhar = 1
+-from math import trunc
+-n = int(input('Digite um número de 0 a 9999: '))
+-u = n / 1 % 10
+-d = n / 10 % 10
+-c = n / 100 % 10
+-m = n / 1000 % 10
+-print('-' * 20)
+-print(f'Unidade: {trunc(u)}')
+-print(f'Dezena: {trunc(d)}')
+-print(f'Centena: {trunc(c)}')
+-print(f'Milhar: {trunc(m)}')
+-print('-' * 20)
+\ No newline at end of file
+Index: ex024.py
+===================================================================
+diff --git a/ex024.py b/ex024.py
+deleted file mode 100644
+--- a/ex024.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,5 +0,0 @@
+-# programa que lê o nome da cidade e diz se ela começa com "SANTO" ou não
+-cidade = str(input('Qual é o nome da sua cidade?')). strip()
+-cidade = cidade.upper()
+-cidade = cidade.split()
+-print(f'Começa com o nome "SANTO"? {'SANTO' in cidade[0]}')
+\ No newline at end of file
+Index: ex025.py
+===================================================================
+diff --git a/ex025.py b/ex025.py
+deleted file mode 100644
+--- a/ex025.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,4 +0,0 @@
+-# programa que lê o nome da pessoa e diz se tem "Silva" no nome
+-nome = str(input('Digite o seu nome completo por gentileza: '))
+-nome = nome.title()
+-print(f'Tem "Silva" no nome? {'Silva' in nome}')
+\ No newline at end of file
+Index: ex026.py
+===================================================================
+diff --git a/ex026.py b/ex026.py
+deleted file mode 100644
+--- a/ex026.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,11 +0,0 @@
+-# programa que lê a frase pelo teclado e mostra:
+-# quantas vezes aparece a letra "A"
+-# quando aparece pela primeira vez
+-# quando aparece pela última vez
+-frase = str(input('Escreva um frase: ').upper())
+-# contando quantas vezes ela aparece
+-print(frase.count('A'))
+-# encontrada pela primeira vez
+-print(frase.find('A'))
+-# quando aparece pela última vez
+-print(frase.rfind('A'))
+\ No newline at end of file
+Index: ex027.py
+===================================================================
+diff --git a/ex027.py b/ex027.py
+deleted file mode 100644
+--- a/ex027.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,8 +0,0 @@
+-# programa que lê o nome completo da pessoa, mostrando em seguida o seu primeiro e último nome separadamente
+-nome = str(input('Digite seu nome completo, por gentileza: ')). strip()
+-nome = nome.split()
+-print('Prazer em te conhecer!')
+-# primeiro nome da pessoa
+-print(f'Seu primeiro nome é {nome[0]}!')
+-# último nome da pessoa
+-print(f'Seu último nome é {nome[len(nome)-1]}!')
+Index: ex029.py
+===================================================================
+diff --git a/ex029.py b/ex029.py
+deleted file mode 100644
+--- a/ex029.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,11 +0,0 @@
+-# programa que lê a velocidade de um carro
+-# caso ele ultrapasse 80km, mostre uma mensagem na tela dizendo que ele foi multado
+-# a multa vai custar R$7,00 por cada km excedido
+-velocidade = int(input('Olá! Poderia me informar a velocidade do carro? '))
+-multa = (velocidade - 80) * 7
+-if velocidade <= 80:
+-    print('Tudo bem, você está dentro do limite de velocidade')
+-    print('Tenha uma boa viagem!')
+-else:
+-    print('Você foi multada por exceder o limite de velocidade!')
+-    print(f'Portanto, deve-se pagar uma multa de R${multa:.2f}!')
+\ No newline at end of file
+Index: ex030.py
+===================================================================
+diff --git a/ex030.py b/ex030.py
+deleted file mode 100644
+--- a/ex030.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,7 +0,0 @@
+-# programa que diz se o número é par ou impar
+-n = int(input('Digite um número inteiro, por gentileza: '))
+-par = n % 2
+-if par == 0:
+-    print(f'O número {n} é um número par!')
+-else:
+-    print(f'O número {n} é um número impar!')
+\ No newline at end of file
+Index: ex031.py
+===================================================================
+diff --git a/ex031.py b/ex031.py
+deleted file mode 100644
+--- a/ex031.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,13 +0,0 @@
+-# programa que pergunta a distância da viagem em km
+-# pergunte o preço e calcule
+-# tendo em vista que para viagens até 200km, deve-se cobrar R$0,50 por km
+-# mais que isso, deve-se cobrar R$0,45
+-viagem = float(input('Qual a distância da viagem? '))
+-# calculo para viagens até 200km
+-a = viagem * 0.50
+-# calculo para viagens acima de 200km
+-b = viagem * 0.45
+-if viagem <= 200:
+-    print(f'Certo! O custo da sua viagem é de R${a:.2f}!')
+-else:
+-    print(f'Certo! O custo da sua viagem é de R${b:.2f}!')
+\ No newline at end of file
+Index: ex032.py
+===================================================================
+diff --git a/ex032.py b/ex032.py
+deleted file mode 100644
+--- a/ex032.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,9 +0,0 @@
+-# programa que lê qualquer ano e diz se é bissexto
+-from datetime import date
+-ano = int(input('Digite um ano (digite 0 se quiser saber do ano atual): '))
+-if ano == 0:
+-    ano = date.today().year
+-if ano % 4 == 0 and ano % 100 != 0 or (ano % 400 == 0):
+-    print(f'O ano {ano} é um ano bissexto!')
+-else:
+-    print(f'O {ano} não é um ano bissexto!')
+\ No newline at end of file
+Index: ex033.py
+===================================================================
+diff --git a/ex033.py b/ex033.py
+deleted file mode 100644
+--- a/ex033.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,16 +0,0 @@
+-# programa que lê 3 números e diz qual é o maior e qual é o menor
+-a = int(input('Digite um número inteiro: '))
+-b = int(input('Digite outro número inteiro: '))
+-c = int(input('Digite outro número inteiro: '))
+-if a > b and (a > c):
+-    print(f'O número {a} é o maior valor!')
+-if b > a and (b > c):
+-    print(f'O número {b} é o maior valor!')
+-if c > a and (c > b):
+-    print(f'O número {c} é o maior valor!')
+-if a < b and (a < c):
+-    print(f'O número {a} é o menor valor!')
+-if b < c and (b < a):
+-    print(f'O número {b} é o menor valor!')
+-if c < b and (c < a):
+-    print(f'O número {c} é o menor valor!')
+\ No newline at end of file
+Index: ex034.py
+===================================================================
+diff --git a/ex034.py b/ex034.py
+deleted file mode 100644
+--- a/ex034.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,14 +0,0 @@
+-# programa que lê o salário do funcionário e calcula o seu aumento
+-# para salários superiores a R$1.250,00. Calcular um valor de 10%
+-# para salários menores ou iguais, um aumento de 15%
+-salário = float(input('Qual é o salário do funcionário? '))
+-# para salários superiores
+-d = (salário * 10) / 100
+-a = d + salário
+-# para salários menores ou iguais
+-di = (salário * 15) / 100
+-b = salário + di
+-if salário <= 1.250:
+-    print(f'Certo! Seu novo salário é R${b:.2f}')
+-else:
+-    print(f'Certo! Seu novo salário é R${a:.2f}')
+\ No newline at end of file
+Index: ex035.py
+===================================================================
+diff --git a/ex035.py b/ex035.py
+deleted file mode 100644
+--- a/ex035.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,8 +0,0 @@
+-# programa que lê o comprimento de 3 retas e diz se elas podem ou não formar um triângulo
+-a = float(input('Diga o comprimento do primeiro segmento: '))
+-b = float(input('Diga o comprimento do segundo segmento: '))
+-c = float(input('Diga o comprimento do terceiro segmento: '))
+-if a + b > c and (a + c > b and b + c > a):
+-    print('Esses três segmentos podem formar um triângulo!')
+-else:
+-    print('Esses três segmentos não podem formar um triângulo!')
+Index: ex036.py
+===================================================================
+diff --git a/ex036.py b/ex036.py
+deleted file mode 100644
+--- a/ex036.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,15 +0,0 @@
+-# programa para aprovar um empréstimo bancário para a compra de uma casa
+-# deve perguntar: o valor da casa, o salário do comprador e em quantos anos ele vai pagar
+-# o programa deve dizer se ele irá poder comprar a casa, tendo em vista que o valor não pode exceder 30% de seu salário
+-# caso isso ocorra, ele não poderá financiar a casa
+-vc = float(input('Qual é o valor da casa? '))
+-sc = float(input('Qual é o salário do comprador? '))
+-anos = int(input('Em quantos pretende pagar a casa? '))
+-# valor da prestação:
+-valor = vc / (anos * 12)
+-# porcetagem do salário:
+-salário = (sc * 30 / 100)
+-if valor > salário:
+-    print('O valor excedeu 30% do seu salário, portanto, não poderá comprar a casa!')
+-else:
+-    print(f'Certo. A prestação mensal fica por R${valor:.2f}! \nBoa sorte em sua compra!')
+\ No newline at end of file
+Index: ex037.py
+===================================================================
+diff --git a/ex037.py b/ex037.py
+deleted file mode 100644
+--- a/ex037.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,17 +0,0 @@
+-# programa que le um numero inteiro qualquer e pede para o usuario escolher qual será a base de conversão
+-# 1 para binário, 2 para octal, 3 para hexadecimal
+-n = int(input('Digite um número inteiro: '))
+-print('Escolha a base de conversão:\n'
+-      '1 - Binário;\n'
+-      '2 - Octal;\n'
+-      '3 - Hexadecimal.')
+-base = int(input('Digite o número de acordo com a base desejada: '))
+-if base == 1:
+-    print(f'A conversão para base binária é: {n:b}')
+-elif base == 2:
+-    print(f'A conversão para base octal é: {n:o}')
+-elif base == 3:
+-    print(f'A conversão para base hexadecimal é: {n:x}')
+-else:
+-    print('Digite um número de acordo com a lista!')
+-
+Index: ex038.py
+===================================================================
+diff --git a/ex038.py b/ex038.py
+deleted file mode 100644
+--- a/ex038.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,10 +0,0 @@
+-# programa que compara números
+-# dizendo qual é o menor, qual é maior ou se os números tem o mesmo valor
+-a = int(input('Digite o primeiro número: '))
+-b = int(input('Digite o segundo número: '))
+-if a > b:
+-    print('O primeiro valor é maior.')
+-elif a < b:
+-    print('O segundo valor é maior.')
+-else:
+-    print('Ambos têm o mesmo valor.')
+\ No newline at end of file
+Index: ex039.py
+===================================================================
+diff --git a/ex039.py b/ex039.py
+deleted file mode 100644
+--- a/ex039.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,19 +0,0 @@
+-# programa de alistamento militar
+-# deve ler o ano de nascimento do usuario e, de acordo com a sua idade, dizer:
+-# se ele ainda vai se alistar, se já está na hora de se alistar ou se já passou
+-# deve mostrar também o tempo que falta ou que passou do prazo
+-from datetime import date
+-ano = int(input('Em que ano você nasceu? '))
+-atual = date.today().year
+-c = atual - ano
+-if c == 18:
+-    print('Já está na hora de se alistar!')
+-elif c < 18:
+-    print(f'Você nasceu em {ano} e está completando {c} anos em {ano + c}!\n'
+-          f'Restam apenas {18 - c} anos para seu alistamnto! \n'
+-          f'Você deve se alistar em {ano + 18}!')
+-else:
+-    print(f'Você nasceu em {ano} e está completando {c} anos em {ano + c}!\n'
+-          f'Sendo assim, já passou do seu ano de alistamento, ocorrido em {ano + 18}!')
+-
+-
+Index: ex040.py
+===================================================================
+diff --git a/ex040.py b/ex040.py
+deleted file mode 100644
+--- a/ex040.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,14 +0,0 @@
+-# programa que calcula a média de um aluno e diz:
+-# média abaixo de 5.0: reprovado
+-# média entre 5.0 e 6.9: recuperação
+-# média entre 7.0 ou superior: aprovado
+-p = float(input('Digite a sua primeira nota: '))
+-s = float(input('Digite a sua segunda nota: '))
+-média = (p + s) / 2
+-if média < 5.0:
+-    print('REPROVADO! ESTUDE MAIS!')
+-elif média <= 6.9:
+-    print('RECUPERAÇÃO! Boa sorte.')
+-else:
+-    print('APROVADO! Parabéns!')
+-print(f'Sua média foi: {média:.1f}')
+Index: ex041.py
+===================================================================
+diff --git a/ex041.py b/ex041.py
+deleted file mode 100644
+--- a/ex041.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,21 +0,0 @@
+-# programa que lê o ano de nascimento de um atleta e diz sua categoria de acordo com a idade:
+-# Até 9 anos: MIRIM
+-# Até 14 anos: INFANTIL
+-# Até 19 anos: JUNIOR
+-# Até 25 anos: SÊNIOR
+-# Acima: MASTER
+-from datetime import date
+-ano = int(input('Em que ano você nasceu? '))
+-atual = date.today().year
+-categoria = atual - ano
+-print(f'O atleta tem {categoria} anos.')
+-if categoria <= 9:
+-    print('Categoria: MIRIM.')
+-elif categoria <= 14:
+-    print('Categoria: INFANTIL.')
+-elif categoria <= 19:
+-    print('Categoria: JUNIOR.')
+-elif categoria <= 25:
+-    print('Categoria: SÊNIOR.')
+-else:
+-    print('Categoria: MASTER.')
+Index: ex042.py
+===================================================================
+diff --git a/ex042.py b/ex042.py
+deleted file mode 100644
+--- a/ex042.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,17 +0,0 @@
+-# complemento do exércio 035, irá mostrar que tipo de triângulo será formado
+-# equilátero: todos os lados iguais
+-# isósceles: dois lados iguais
+-# escaleno: todos os lados diferentes
+-a = float(input('Digite o comprimento do primeiro segmento: '))
+-b = float(input('Digite o comprimento do segundo segmento: '))
+-c = float(input('Digite o comprimento do terceiro segmento: '))
+-if a + b > c and a + c > b and c + b > a:
+-    print('Esses três segmentos poderão formar um triângulo ', end='')
+-    if a == b == c:
+-        print('EQUILÁTERO!')
+-    elif a != b != c != a:
+-        print('ESCALENO!')
+-    else:
+-        print('ISÓSCELES!')
+-else:
+-    print('Não poderão formar um triângulo.')
+Index: ex043.py
+===================================================================
+diff --git a/ex043.py b/ex043.py
+deleted file mode 100644
+--- a/ex043.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,20 +0,0 @@
+-# programa que calcula o IMC de uma pessoa
+-# abaixo de 18.5: abaixo do peso
+-# entre 18.5 e 25: peso ideal
+-# 25 até 30: sobrepeso
+-# 30 até 40: obesidade
+-# acima de 40: obesidade mórbida
+-altura = float(input('Qual é a sua altura? '))
+-peso = float(input('Quanto você pesa? '))
+-c = peso / (altura ** 2)
+-if c < 18.5:
+-    print('Você está abaixo do peso.')
+-elif c <= 25:
+-    print('Você está no seu peso ideal.')
+-elif c <= 30:
+-    print('Você está um pouco acima do peso.')
+-elif c <= 40:
+-    print('Você está em estado de obesidade.')
+-else:
+-    print('Você está em estado de obesidade mórbida! Por favor, procure um médico!')
+-print(f'Seu IMC é {c:.1f}.')
+Index: ex044.py
+===================================================================
+diff --git a/ex044.py b/ex044.py
+deleted file mode 100644
+--- a/ex044.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,31 +0,0 @@
+-# programa que calcula o valor a ser pago por um produto, considerando seu preço normal e condição de pagamento
+-# à vista no dinheiro/cheque: 10% de desconto
+-# à vista no cartão: 5% de desconto
+-# em até 2x no cartão: preço normal
+-# 3x ou mais no cartão: 20% de juros
+-print(f'{" LOJAS LUCAS ":=^40}')
+-produto = float(input('Qual é o valor do produto? R$ '))
+-print('Abaixo a lista das condições de pagamento:\n ')
+-print('1 - À vista no dinheiro/cheque;\n'
+-      '2 - À vista no cartão;\n'
+-      '3 - Em até 2x no cartão;\n'
+-      '4 - 3x ou mais no cartão.\n ')
+-condição = int(input('Digite o número de acordo com a condição deseja: '))
+-if condição == 1:
+-    total = produto - (produto * 10 / 100)
+-elif condição == 2:
+-    total = produto - (produto * 5 / 100)
+-elif condição == 3:
+-    total = produto
+-    parcela = produto / 2
+-    print(f'Seu produto parcelado em 2x de R${parcela:.2f} sem juros.')
+-elif condição == 4:
+-    total = produto + (produto * 20 / 100)
+-    totalparcelas = int(input('Serão quantas parcelas? '))
+-    parcela = total / totalparcelas
+-    print(f'Seu produto será parcelado em {totalparcelas} de R${parcela:.2f} com juros')
+-else:
+-    total = produto
+-    print('Inválido! Digite um número de acordo com a lista!')
+-print(f'Sua compra de R${produto:.2f} passará a custar R${total:.2f} no final.')
+-
+Index: ex045.py
+===================================================================
+diff --git a/ex045.py b/ex045.py
+deleted file mode 100644
+--- a/ex045.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,30 +0,0 @@
+-# jokenpô
+-from time import sleep
+-from random import choice
+-print('Vamos jogar jokenpô!')
+-sleep(1)
+-print('Você deve escolher entre: pedra, papel ou tesoura!')
+-sleep(2)
+-print('Farei o mesmo e assim veremos que ganhará o jogo!')
+-sleep(2)
+-jogador = str(input('Pedra, papel ou tesoura? ')). strip()
+-jogador = jogador.title()
+-lista = ['Pedra', 'Tesoura', 'Pedra']
+-computador = choice(lista)
+-if jogador == 'Tesoura' and computador == 'Pedra':
+-    print(f'GANHEI! Você escolheu {jogador} e eu escolhi {computador}!')
+-elif jogador == 'Tesoura' and computador == 'Papel':
+-    print(f'PERDI! Você escolheu {jogador} e eu escolhi {computador}!')
+-elif jogador == 'Pedra' and computador == 'Papel':
+-    print(f'GANHEI! Você escolheu {jogador} e eu escolhi {computador}!')
+-elif jogador == 'Pedra' and computador == 'Tesoura':
+-    print(f'PERDI! Você escolheu {jogador} e eu escolhi {computador}!')
+-elif jogador == 'Papel' and computador == 'Tesoura':
+-    print(f'GANHEI! Você escolheu {jogador} e eu escolhi {computador}!')
+-elif jogador == 'Papel' and computador == 'Pedra':
+-    print(f'PERDI! Você escolheu {jogador} e eu escolhi {computador}!')
+-elif jogador == computador:
+-    print(f'EMPATE! Você escolheu {jogador} e eu escolhi {computador}!')
+-else:
+-    print('Escolha uma das opções!')
+-print('Pronto para mais uma rodada?')
+Index: ex046.py
+===================================================================
+diff --git a/ex046.py b/ex046.py
+deleted file mode 100644
+--- a/ex046.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,6 +0,0 @@
+-# contagem regressiva de 10 até 0 com 1 segundo de pausa entre eles
+-from time import sleep
+-for c in range(10, 0-1, -1):
+-    print(c)
+-    sleep(1)
+-print('FOGOS!')
+\ No newline at end of file
+Index: ex047.py
+===================================================================
+diff --git a/ex047.py b/ex047.py
+deleted file mode 100644
+--- a/ex047.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,3 +0,0 @@
+-# programa que mostra todos os números pares que estão entre 1 e 50
+-for c in range(2, 50+2, 2):
+-    print(c)
+\ No newline at end of file
+Index: ex048.py
+===================================================================
+diff --git a/ex048.py b/ex048.py
+deleted file mode 100644
+--- a/ex048.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,9 +0,0 @@
+-# programa que calcula a soma de todos os número ímpares e múltiplos de 3 que se encontram no intervalo
+-# de 1 até 500
+-s = 0
+-cont = 0
+-for c in range(1, 501, 2):
+-    if c % 3 == 0:
+-        s = s + c
+-        cont = cont + 1
+-print(f'A soma de todos os {cont} valores solicitados é {s}.')
+Index: ex049.py
+===================================================================
+diff --git a/ex049.py b/ex049.py
+deleted file mode 100644
+--- a/ex049.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,7 +0,0 @@
+-# refazendo o exercício 009 utilizando o laço for
+-print('Farei uma tabuada do número que desejar.')
+-n = int(input('Digite o número(inteiro) desejado: '))
+-print('=' * 20)
+-for c in range(1, 10+1):
+-    print(f'{n} x {c} = {n*c}')
+-print('=' * 20)
+Index: ex050.py
+===================================================================
+diff --git a/ex050.py b/ex050.py
+deleted file mode 100644
+--- a/ex050.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,9 +0,0 @@
+-# programa que lê 6 números inteiros e soma somente os pares, os ímpares ele desconsidera
+-s = 0
+-count = 0
+-for c in range (1, 6+1):
+-    n = int(input(f'Digite o {c}° valor: '))
+-    if n % 2 == 0:
+-        s = s + n
+-        count = count + 1
+-print(f'Você digitou {count} números pares, portanto, a soma deles é {s}.')
+\ No newline at end of file
+Index: ex051.py
+===================================================================
+diff --git a/ex051.py b/ex051.py
+deleted file mode 100644
+--- a/ex051.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,8 +0,0 @@
+-# programa que lê o primeiro termo e a razão de uma PA.
+-# no final mostra os 10 primeiros termos dessa progressão
+-pt = int(input('Qual é o primeiro termo? '))
+-r = int(input('Qual é a razão? '))
+-tpa = pt + (10 - 1) * r
+-for c in range(pt, tpa+r, r):
+-    pt += r
+-    print(pt)
+\ No newline at end of file
+Index: ex052.py
+===================================================================
+diff --git a/ex052.py b/ex052.py
+deleted file mode 100644
+--- a/ex052.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,12 +0,0 @@
+-# programa que lê um número inteiro e diz se ele é ou não um número primo
+-n = int(input('Digite um número inteiro: '))
+-d = list()
+-for c in range(1, n+1):
+-    s = n % c
+-    if s == 0:
+-        d.append(s)
+-if len(d) > 2:
+-    print(f'O número {n} não é primo!')
+-elif len(d) == 2:
+-    print(f'O número {n} é primo!')
+-
+Index: ex053.py
+===================================================================
+diff --git a/ex053.py b/ex053.py
+deleted file mode 100644
+--- a/ex053.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,11 +0,0 @@
+-# programa que lê uma frase e diz se ela é um palíndromo
+-frase = str(input('Digite uma frase: ')). strip(). upper()
+-p = frase.split()
+-j = ''.join(p)
+-inverso = ''
+-for letra in range(len(j) - 1, -1, -1):
+-    inverso += j[letra]
+-if inverso == j:
+-    print(f'A frase {frase} é um palíndromo.')
+-else:
+-    print(f'A frase {frase} não é um palíndromo.')
+\ No newline at end of file
+Index: ex054.py
+===================================================================
+diff --git a/ex054.py b/ex054.py
+deleted file mode 100644
+--- a/ex054.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,16 +0,0 @@
+-# programa que lê o ano de nascimento de 7 pessoas e no final mostra quantas pessoas atingiram maior idade (21)
+-# e quantas não atingiram a maior idade
+-p = list()
+-m = list()
+-from datetime  import date
+-atual = date.today().year
+-for c in range(7):
+-    ano = int(input('Em que ano você nasceu? '))
+-    if atual - ano >= 21:
+-        p.append(c)
+-    elif atual - ano < 21:
+-        m.append(c)
+-if len(p) >= 0:
+-    print(f'{len(p)} pessoas atingiram a maior idade.')
+-if len(m) > 0:
+-    print(f'{len(m)} pessoas ainda não atingiram a maior idade.')
+\ No newline at end of file
+Index: ex055.py
+===================================================================
+diff --git a/ex055.py b/ex055.py
+deleted file mode 100644
+--- a/ex055.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,15 +0,0 @@
+-# programa que lê o peso de cinco pessoas e no final mostra qual foi o maior e o menor peso lido
+-maior = 0
+-menor = 0
+-for p in range (1, 6):
+-    peso = float(input(f'Digite o peso da {p}° pessoa: '))
+-    if p == 1:
+-        maior = peso
+-        menor = peso
+-    else:
+-        if peso > maior:
+-            maior = peso
+-        if peso < menor:
+-            menor = peso
+-print(f'O maior peso lido foi de {maior}kg.')
+-print(f'O menor peso lido foi de {menor}kg.')
+\ No newline at end of file
+Index: ex056.py
+===================================================================
+diff --git a/ex056.py b/ex056.py
+deleted file mode 100644
+--- a/ex056.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,25 +0,0 @@
+-# programa que lê nome, idade e sexo de 4 pessoas e no final mostra:
+-# a média de idade do grupo; qual é o nome do homem mais velho; quantas mulheres tem menos de 20 anos
+-mais = 0
+-m = 0
+-count = 0
+-nomevelho = ''
+-for pergunta in range(1, 4+1):
+-    print(f'{'=' * 10} {pergunta}° PESSOA {'=' * 10}')
+-    nome = str(input('Qual é o seu nome? ')). title()
+-    idade = int(input('Quantos anos você tem? '))
+-    sexo = str(input('Qual é o seu sexo [M/F]? '))
+-    m = m + idade
+-    if sexo == 'F' or sexo == 'f':
+-        if idade < 20:
+-            count = count + 1
+-    if sexo == 'M' or sexo == 'm':
+-        if pergunta == 1:
+-            mais = idade
+-            nomevelho = nome
+-        elif idade > mais:
+-            mais = idade
+-            nomevelho = nome
+-print(f'A média de idade do grupo é {m / 4:.1f} anos.')
+-print(f'Ao todo, {count} mulheres têm menos de 20 anos.')
+-print(f'O homem mais velho tem {mais} anos e se chama {nomevelho}.')
+\ No newline at end of file
+Index: ex057.py
+===================================================================
+diff --git a/ex057.py b/ex057.py
+deleted file mode 100644
+--- a/ex057.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,6 +0,0 @@
+-# programa que lê o sexo de uma pessoa, mas só aceita os valores 'M' ou 'F'.
+-# caso esteja errado, peça a digitação novamente até ter um valor correto
+-sexo = str(input('Informe seu sexo: [M/F]')). strip().upper()[0]
+-while sexo not in 'FfMm':
+-    sexo = str(input('Dados inválidos! Por favor, informe novamente: ')).strip().upper()[0]
+-print(f'Sexo {sexo} registrado com sucesso.')
+Index: ex059.py
+===================================================================
+diff --git a/ex059.py b/ex059.py
+deleted file mode 100644
+--- a/ex059.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,38 +0,0 @@
+-# menu de opções
+-from time import sleep
+-opção = 1
+-a = int(input('Digite o primeiro número(inteiro): '))
+-b = int(input('Digite o segundo número(inteiro): '))
+-c = ''
+-d = ''
+-while opção != 5:
+-    print('Digite o número de acordo com a opção desejada:\n'
+-      '[1] somar;\n'
+-      '[2] multiplicar;\n'
+-      '[3] maior;\n'
+-      '[4] novos números;\n'
+-      '[5] sair do programa.')
+-    opção = int(input('Qual é a sua opção?'))
+-    if opção == 1:
+-        print(f'A soma entre {a} e {b} é {a+b}.')
+-    elif opção == 2:
+-        print(f'O resultado da multiplicação entre {a} e {b} é {a*b}.')
+-    elif opção == 3:
+-        if a > b:
+-            print(f'O maior número entre {a} e {b} é {a}.')
+-        if a < b:
+-            print(f'O maior número entre {a} e {b} é {b}.')
+-        else:
+-            if a == b:
+-                print('Não há maior, os dois valores são iguais.')
+-    if opção == 4:
+-        c = int(input('Digite o primeiro valor novamente: '))
+-        d = int(input('Digite o segundo valor novamente: '))
+-        a = c
+-        b = d
+-    else:
+-        if opção != 1 and opção != 2 and opção != 3 and opção != 4 and opção != 5:
+-            print('Opção inválida! Tente novamente.')
+-    print(f'{'-=' * 25}')
+-    sleep(1)
+-print('Programa finalizado.')
+\ No newline at end of file
+Index: ex060(2).py
+===================================================================
+diff --git a/ex060(2).py b/ex060(2).py
+deleted file mode 100644
+--- a/ex060(2).py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,5 +0,0 @@
+-# fatorial com a estrutura de repetição 'for'
+-n = int(input('Digite um valor: '))
+-for c in range(n-1, 0, -1):
+-    n = n * c
+-print(f'O fatorial desse número é {n}.')
+\ No newline at end of file
+Index: ex060.py
+===================================================================
+diff --git a/ex060.py b/ex060.py
+deleted file mode 100644
+--- a/ex060.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,9 +0,0 @@
+-# fatorial
+-s = 1
+-from math import factorial
+-while s != 'N':
+-    n = int(input('Digite um valor: '))
+-    print(f'O fatorial deste número é {factorial(n)}.')
+-    s = str(input('Deseja continuar? [S/N] ')). upper()
+-    print('=-' * 15)
+-print('Programa finalizado.')
+Index: ex061.py
+===================================================================
+diff --git a/ex061.py b/ex061.py
+deleted file mode 100644
+--- a/ex061.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,11 +0,0 @@
+-#ex 51 com estrutura de repetição while
+-print('GERADOR DE PA')
+-print('-=' * 8)
+-pt = int(input('Qual é o primeiro termo? '))
+-r = int(input('Qual é a razão? '))
+-tpa = pt + (10 - 1) * r
+-print(pt)
+-while pt != tpa:
+-    pt += r
+-    print(pt)
+-print('FIM.')
+\ No newline at end of file
+Index: ex062.py
+===================================================================
+diff --git a/ex062.py b/ex062.py
+deleted file mode 100644
+--- a/ex062.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,20 +0,0 @@
+-# gerador de PA melhorado
+-from time import sleep
+-pt = int(input('Digite o primeiro termo: '))
+-r = int(input('Digite a razão: '))
+-termo = pt
+-cont = 1
+-total = 0
+-mais = 10
+-while mais != 0:
+-    total = total + mais
+-    while cont <= total:
+-        print(f'{termo} ➡ ', end=' ' )
+-        termo += r
+-        cont += 1
+-    print('PAUSA')
+-    mais = int(input('Quantos termos você quer mostrar a mais?'))
+-    if mais == 0:
+-        print('Finalizando...')
+-    sleep(1)
+-print('Programa finalizado.')
+\ No newline at end of file
+Index: ex063.py
+===================================================================
+diff --git a/ex063.py b/ex063.py
+deleted file mode 100644
+--- a/ex063.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,16 +0,0 @@
+-# sequência de Fibonacci
+-print('-=' * 26)
+-print('SEQUÊNCIA DE FIBORNACCI.')
+-print('-=' * 26)
+-n = int(input('Quantos termos você quer mostrar? '))
+-t1 = 0
+-t2 = 1
+-print(f'{t1} ➡ {t2} ➡', end=' ')
+-cont = 3
+-while cont <= n:
+-    t3 = t1 + t2
+-    print(f'{t3} ➡', end=' ')
+-    t1 = t2
+-    t2 = t3
+-    cont += 1
+-print('FIM.')
+\ No newline at end of file
+Index: ex064.py
+===================================================================
+diff --git a/ex064.py b/ex064.py
+deleted file mode 100644
+--- a/ex064.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,7 +0,0 @@
+-n = cont = soma = 0
+-n = int(input('Digite um número inteiro (999 condição de parada): '))
+-while n != 999:
+-    soma += n
+-    cont += 1
+-    n = int(input('Digite um número inteiro (999 condião de parada): '))
+-print(f'Você digitou {cont} números e a soma deles é {soma}.')
+\ No newline at end of file
+Index: ex065.py
+===================================================================
+diff --git a/ex065.py b/ex065.py
+deleted file mode 100644
+--- a/ex065.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,17 +0,0 @@
+-op = 'S'
+-cont = média = soma = maior = menor = 0
+-while op in 'Ss':
+-    n = int(input('Digite um número inteiro: '))
+-    cont += 1
+-    soma += n
+-    média = soma / cont
+-    if cont == 1:
+-        maior = menor = n
+-    else:
+-        if n > maior:
+-            maior = n
+-        if n < menor:
+-            menor = n
+-    op = str(input('Deseja continuar? [S/N]')). strip().upper()[0]
+-print(f'Você digitou {cont} números e a média é {média:.2f}')
+-print(f'O maior valor é {maior} e o menor valor é {menor}.')
+\ No newline at end of file
+Index: ex066.py
+===================================================================
+diff --git a/ex066.py b/ex066.py
+deleted file mode 100644
+--- a/ex066.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,8 +0,0 @@
+-count = s = 0
+-while True:
+-    n = int(input('Digite um número inteiro: '))
+-    if n == 999:
+-        break
+-    count += 1
+-    s += n
+-print(f'A soma dos {count} valores é {s}.')
+\ No newline at end of file
+Index: ex067.py
+===================================================================
+diff --git a/ex067.py b/ex067.py
+deleted file mode 100644
+--- a/ex067.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,11 +0,0 @@
+-# tabuada melhorada
+-while True:
+-    n = int(input('Digite um número inteiro: '))
+-    s = n
+-    if n < 0:
+-        break
+-    while n != 10:
+-        s += 1
+-        print(f'{s} x {}')
+-        if s == 10:
+-            break
+\ No newline at end of file
+Index: script.py
+===================================================================
+diff --git a/script.py b/script.py
+deleted file mode 100644
+--- a/script.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,16 +0,0 @@
+-# This is a sample Python script.
+-
+-# Press Shift+F10 to execute it or replace it with your code.
+-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+-
+-
+-def print_hi(name):
+-    # Use a breakpoint in the code line below to debug your script.
+-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+-
+-
+-# Press the green button in the gutter to run the script.
+-if __name__ == '__main__':
+-    print_hi('PyCharm')
+-
+-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+Index: teste023.py
+===================================================================
+diff --git a/teste023.py b/teste023.py
+deleted file mode 100644
+--- a/teste023.py	(revision 6de06c329729de630144535f96d4a084c6c85182)
++++ /dev/null	(revision 6de06c329729de630144535f96d4a084c6c85182)
+@@ -1,3 +0,0 @@
+-# teste de alteração
+-nome = str(input('Digite seu nome: ')). strip().title()
+-print(f'Olá, {nome}.')
+\ No newline at end of file
+diff --git a/ex021.mp3 b/ex021.mp3
+deleted file mode 100644
+index 4b76c073349185e8a5620223eaf63f2e47d3b979..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+

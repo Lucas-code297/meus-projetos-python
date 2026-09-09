@@ -1,0 +1,7 @@
+n = int(input('Digite um valor (em metros): '))
+print(f'Convertido em KM: {n / 1000}km')
+print(f'Convertido em HM: {n / 100}hm')
+print(f'Convertido em DAM: {n / 10}dam')
+print(f'Convertido em DM:{n * 10}dm')
+print(f'Convertido em CM: {n * 100}cm')
+print(f'Convertido em MM:{n * 1000}mm')
